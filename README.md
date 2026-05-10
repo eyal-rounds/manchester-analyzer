@@ -131,3 +131,4 @@ For debug and release builds, respectively.
 
 This is the decoded manchester word
 
+## in this repo Tondo Smart has added some code for her own benefits.
