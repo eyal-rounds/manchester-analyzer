@@ -41,6 +41,9 @@ void ManchesterAnalyzer::WorkerThread()
     case TOL25:
         mTError = mT / 2;
         break;
+    case TOL30:
+        mTError = U32( ( U64( mT ) * 6 ) / 10 );
+        break;
     case TOL5:
         mTError = mT / 10;
         break;

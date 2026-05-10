@@ -15,7 +15,8 @@ enum ManchesterTolerance
 {
     TOL25,
     TOL5,
-    TOL05
+    TOL05,
+    TOL30
 };
 
 class ManchesterAnalyzerSettings : public AnalyzerSettings

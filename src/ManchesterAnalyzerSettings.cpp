@@ -73,6 +73,7 @@ ManchesterAnalyzerSettings::ManchesterAnalyzerSettings()
     mToleranceInterface.reset( new AnalyzerSettingInterfaceNumberList() );
     mToleranceInterface->SetTitleAndTooltip( "Tolerance", "Specify the Manchester Tolerance as a percentage of period" );
     mToleranceInterface->AddNumber( TOL25, "25% of period (default)", "Maximum allowed tolerance, +- 50% of one half period" );
+    mToleranceInterface->AddNumber( TOL30, "30% of period", "Maximum allowed tolerance, +- 60% of one half period" );
     mToleranceInterface->AddNumber( TOL5, "5% of period", "Required more than 10x over sampling" );
     mToleranceInterface->AddNumber( TOL05, "0.5% of period", "Requires more than 200x over sampling" );
     mToleranceInterface->SetNumber( mTolerance );
