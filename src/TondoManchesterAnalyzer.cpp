@@ -510,7 +510,7 @@ bool ManchesterAnalyzer::NeedsRerun()
 {
     return false;
 }
-const char gAnalyzerName[] = "Manchester"; // your analyzer must have a unique name
+const char gAnalyzerName[] = "TondoManchester"; // your analyzer must have a unique name
 
 const char* ManchesterAnalyzer::GetAnalyzerName() const
 {
