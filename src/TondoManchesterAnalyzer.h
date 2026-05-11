@@ -12,7 +12,7 @@
 
 #include "Analyzer.h"
 #include "TondoManchesterAnalyzerResults.h"
-#include "tondo-manchesterManchesterSimulationDataGenerator.h"
+#include "TondoManchesterSimulationDataGenerator.h"
 
 class ManchesterAnalyzerSettings;
 

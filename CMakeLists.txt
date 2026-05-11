@@ -1,5 +1,5 @@
 cmake_minimum_required (VERSION 3.11)
-project(manchester_analyzer)
+project(tondo_manchester_analyzer)
 
 add_definitions( -DLOGIC2 )
 
@@ -20,8 +20,8 @@ src/TondoManchesterAnalyzerResults.cpp
 src/TondoManchesterAnalyzerResults.h
 src/TondoManchesterAnalyzerSettings.cpp
 src/TondoManchesterAnalyzerSettings.h
-src/tondo-manchesterManchesterSimulationDataGenerator.cpp
-src/tondo-manchesterManchesterSimulationDataGenerator.h
+src/TondoManchesterSimulationDataGenerator.cpp
+src/TondoManchesterSimulationDataGenerator.h
 )
 
-add_analyzer_plugin(manchester_analyzer SOURCES ${SOURCES})
+add_analyzer_plugin(tondo_manchester_analyzer SOURCES ${SOURCES})
