@@ -11,8 +11,8 @@
 #endif
 
 #include "Analyzer.h"
-#include "ManchesterAnalyzerResults.h"
-#include "ManchesterSimulationDataGenerator.h"
+#include "TondoManchesterAnalyzerResults.h"
+#include "tondo-manchesterManchesterSimulationDataGenerator.h"
 
 class ManchesterAnalyzerSettings;
 

@@ -1,4 +1,4 @@
-#include "ManchesterAnalyzerSettings.h"
+#include "TondoManchesterAnalyzerSettings.h"
 
 #include <AnalyzerHelpers.h>
 #include <sstream>

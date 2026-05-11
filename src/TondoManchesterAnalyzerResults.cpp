@@ -1,8 +1,8 @@
-#include "ManchesterAnalyzerResults.h"
+#include "TondoManchesterAnalyzerResults.h"
 
 #include <AnalyzerHelpers.h>
-#include "ManchesterAnalyzer.h"
-#include "ManchesterAnalyzerSettings.h"
+#include "TondoManchesterAnalyzer.h"
+#include "TondoManchesterAnalyzerSettings.h"
 #include <iostream>
 #include <sstream>
 

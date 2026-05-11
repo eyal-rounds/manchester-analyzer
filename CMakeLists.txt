@@ -14,14 +14,14 @@ set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake)
 include(ExternalAnalyzerSDK)
 
 set(SOURCES 
-src/ManchesterAnalyzer.cpp
-src/ManchesterAnalyzer.h
-src/ManchesterAnalyzerResults.cpp
-src/ManchesterAnalyzerResults.h
-src/ManchesterAnalyzerSettings.cpp
-src/ManchesterAnalyzerSettings.h
-src/ManchesterSimulationDataGenerator.cpp
-src/ManchesterSimulationDataGenerator.h
+src/TondoManchesterAnalyzer.cpp
+src/TondoManchesterAnalyzer.h
+src/TondoManchesterAnalyzerResults.cpp
+src/TondoManchesterAnalyzerResults.h
+src/TondoManchesterAnalyzerSettings.cpp
+src/TondoManchesterAnalyzerSettings.h
+src/tondo-manchesterManchesterSimulationDataGenerator.cpp
+src/tondo-manchesterManchesterSimulationDataGenerator.h
 )
 
 add_analyzer_plugin(manchester_analyzer SOURCES ${SOURCES})

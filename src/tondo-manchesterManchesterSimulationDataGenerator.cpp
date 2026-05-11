@@ -1,5 +1,5 @@
-#include "ManchesterSimulationDataGenerator.h"
-#include "ManchesterAnalyzerSettings.h"
+#include "tondo-manchesterManchesterSimulationDataGenerator.h"
+#include "TondoManchesterAnalyzerSettings.h"
 
 ManchesterSimulationDataGenerator::ManchesterSimulationDataGenerator()
 {

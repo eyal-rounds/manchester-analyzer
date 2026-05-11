@@ -4,8 +4,8 @@
 #include <algorithm>
 #pragma warning( pop )
 
-#include "ManchesterAnalyzer.h"
-#include "ManchesterAnalyzerSettings.h"
+#include "TondoManchesterAnalyzer.h"
+#include "TondoManchesterAnalyzerSettings.h"
 #include <AnalyzerChannelData.h>
 
 
